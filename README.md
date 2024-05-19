@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Creaamos nuestro proyecto con el siguiente comando
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### `npx create-react-app my_galery_react`
 
-## Available Scripts
 
-In the project directory, you can run:
+## Para desplegar nuestro proyecto con el siguiente comando
+
+Se despliega en el navegador que este por default:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Corre en el puerto 3000 mode.\
+Open [http://localhost:3000](http://localhost:3000) en la url de tu navegador.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### `Ctrl + C`  
+Nos sirve para detener la ejecución y salir del programa, lo ejecutamos directamente en la consola.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Para trabajar con el preprosesador como SASS debemos instalar el mode en el siguiente comando
 
-### `npm run build`
+### `npm i node-sass`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Nos permite utilizar los archivos de estilos con las extenciones **`.sass`** o **`.scss`**
+Para su instalacion nos dirigimos a [npm-sass](https://www.npmjs.com/package/node-sass) para más información.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Para trabajar con la libreria de react-image-gallery 
 
+### `npm i react-image-gallery`
+
+Nos permite utilizar un componente ya predeterminado de una galeria de imagenes con un slider automatico y un carrusel de imagenes muy comodo, ademas de que sus opciones podemos utilizarlas a la necesidad del proyecto.
+En nuestra `App.js` principarl importamos la libreria, `Import Nombre-que-Quiera from 'react-image-gallery'` y listo.
+
+Ya con esta indicación podemos empezar a organizar nuestra galeria.
+
+Para su instalacion nos dirigimos a [npm-react-image-gallery](https://facebook.github.io/create-react-app/docs/deployment) para más información.
+
+
+<!-- 
 ### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Note: this is a one-way operation. Once you `eject`, you can't go back!** -->
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

@@ -29,15 +29,20 @@ Para su instalacion nos dirigimos a [npm-sass](https://www.npmjs.com/package/nod
 ### `npm i react-image-gallery`
 
 Nos permite utilizar un componente ya predeterminado de una galeria de imagenes con un slider automatico y un carrusel de imagenes muy comodo, ademas de que sus opciones podemos utilizarlas a la necesidad del proyecto.
-En nuestra `App.js` principarl importamos la libreria, `Import Nombre-que-Quiera from 'react-image-gallery'` y listo.
+En nuestra `App.js` principarl importamos la libreria, `import Nombre-que-Quiera from 'react-image-gallery'` y listo.
 
 Ya con esta indicación podemos empezar a organizar nuestra galeria.
 
 Para su instalacion nos dirigimos a [npm-react-image-gallery](https://facebook.github.io/create-react-app/docs/deployment) para más información.
 
+**Note: Tambien podemos importar los estilos de la libreria, tanto Sass como Css, con el siguiente comando**
 
-<!-- 
-### `npm run eject`
+# SCSS
+`import "react-image-gallery/styles/scss/image-gallery.scss";`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!** -->
+# CSS
+`import "react-image-gallery/styles/css/image-gallery.css";`
 
+Los estilos le dan el orden y tamaño a las imagenes de una galeria de iamgenes.abs
+
+**Note: No olvidar de exportar las imagenes con el componente app para utilizarlas en el Objeto de galery, `import img_1 from './assets/01.jpg';`**

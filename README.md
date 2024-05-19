@@ -1,4 +1,4 @@
-# Creaamos nuestro proyecto con el siguiente comando
+# Creamos nuestro proyecto con el siguiente comando
 
 ### `npx create-react-app my_galery_react`
 
@@ -43,6 +43,6 @@ Para su instalacion nos dirigimos a [npm-react-image-gallery](https://facebook.g
 # CSS
 `import "react-image-gallery/styles/css/image-gallery.css";`
 
-Los estilos le dan el orden y tamaño a las imagenes de una galeria de iamgenes.abs
+Los estilos le dan el orden y tamaño a las imagenes de una galeria de imagenes.
 
 **Note: No olvidar de exportar las imagenes con el componente app para utilizarlas en el Objeto de galery, `import img_1 from './assets/01.jpg';`**
